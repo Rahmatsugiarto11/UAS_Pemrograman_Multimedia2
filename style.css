@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 800px;
+    height: 682px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hospital-list {
+    margin-top: 20px;
+}
+
+.hospital {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    flex-shrink: 0; /* Mencegah footer dari perpanjangan ke atas */
+}
+
+/* Media Queries untuk Tata Letak Responsif */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .search-container {
+        text-align: left;
+    }
+
+    #searchInput {
+        width: 70%;
+    }
+
+    button {
+        width: 28%;
+    }
+
+    .hospital {
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #searchInput {
+        width: 60%;
+    }
+
+    button {
+        width: 35%;
+    }
+}
+
+/* Tambahkan ini ke dalam styles.css */
+.search-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 8px;
+    margin-right: 4px;
+}
+
+button {
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+table.hospital-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.hospital-table th, table.hospital-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table.hospital-table th {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Tambahan untuk responsif */
+@media only screen and (max-width: 600px) {
+    table.hospital-table {
+        font-size: 14px;
+    }
+}

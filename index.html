@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data Rumah Sakit Indonesia</title>
+</head>
+<body>
+    <header>
+        <h1>Data Rumah Sakit Indonesia</h1>
+    </header>
+    <main>
+        <section class="hospital-list">
+
+            <!-- Data rumah sakit akan ditampilkan di sini -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Cari rumah sakit...">
+                <button onclick="searchHospital()">Cari</button>
+            </div>
+            <div id="dataContainer">
+            <table class="hospital-table">
+                <thead>
+                    <tr>
+                        <th>Nama Rumah Sakit</th>
+                        <th>Alamat</th>
+                        <th>Telepon</th>
+                        <th>Info</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rumah Sakit A</td>
+                        <td>Jl. Contoh No. 123</td>
+                        <td>(0123) 456-789</td>
+                        <td>update</td>
+                    </tr>
+                    <tr>
+                        <td>Rumah Sakit B</td>
+                        <td>Jl. Contoh No. 123</td>
+                        <td>(0123) 456-789</td>
+                        <td>update</td>
+                    </tr>
+                    <tr>
+                        <td>Rumah Sakit C</td>
+                        <td>Jl. Contoh No. 123</td>
+                        <td>(0123) 456-789</td>
+                        <td>update</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            <script src="script.Js">
+            </script>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Data Kementerian Kesehatan Republik Indonesia</p>
+    </footer>
+</body>
+</html>
